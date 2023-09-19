@@ -7,11 +7,11 @@ public class Exercicio2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um numero: ");
         int number = scanner.nextInt();
-        String result = positiveOrNegative(number);
+        String result = evenOrOdd(number);
         System.out.println("O valor "+number+" é "+result);
 
     }
-    public static String positiveOrNegative(int number){
+    public static String evenOrOdd(int number){
         if (number%2==0)return "Par";
         else return "Impar";
 
