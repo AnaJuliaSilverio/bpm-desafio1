@@ -2,7 +2,6 @@ package org.example.desafio1;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.Scanner;
 
 public class Exercicio5 {
 
@@ -14,8 +13,6 @@ public class Exercicio5 {
         numbers.add(4);
         ArrayList<Integer> sortingNumbers = sortingNumbers(numbers);
         System.out.println("A lista ordenada de forma decrescente é "+ sortingNumbers);
-
-
     }
     public static ArrayList<Integer> sortingNumbers(ArrayList<Integer> numbers){
         numbers.sort(Comparator.reverseOrder());
