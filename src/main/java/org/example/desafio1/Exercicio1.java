@@ -7,6 +7,7 @@ public class Exercicio1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o valor do primeiro número: ");
         int fisrtNumber = scanner.nextInt();
+        System.out.println("Digite o valor do segundo número: ");
         int secondNumber = scanner.nextInt();
         int result = higherNumber(fisrtNumber,secondNumber);
 
