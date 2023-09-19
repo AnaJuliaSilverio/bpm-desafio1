@@ -12,7 +12,7 @@ public class Exercicio2 {
 
     }
     public static String positiveOrNegative(int number){
-        if (number>=0)return "Par";
+        if (number%2==0)return "Par";
         else return "Impar";
 
     }
